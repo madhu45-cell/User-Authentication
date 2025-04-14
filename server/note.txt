@@ -1,0 +1,25 @@
+server side work....
+1st - we can run first command in terminal.
+    npm init
+
+2nd - we can install all need packages.
+    npm install express cors dotenv nodemon jsonwebtoken mongoose bcryptjs nodemailer cookie-parser
+
+    express - use to create ower app.
+    cors    - use allow to connect backend with frontend.
+    dotenv  - that will help us to store the involving variable in the backend.
+    nodemon - that automatically restarts your Node.js server/backend whenever you make changes to your code files.
+    jsonwebtoken - JWT (JSON Web Token) is a compact, URL-safe way of representing claims between two parties. It's often used to securely transmit information (like user data) between a client and server.
+    mongoose - use for connecting mongodb database.
+    bcryptjs - used to securely hash passwords before storing them in a database.
+    nodemailer - help us to send the emails .
+    cookie-parser - help us to send the cookies in aps response.
+
+3rd - make express basice app. with port.
+    run server with - node server.js 
+
+
+4th - connect with mongodb database.
+
+
+5th - Postman is an API platform used for building, testing, documenting, and collaborating on APIs,

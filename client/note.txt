@@ -1,0 +1,21 @@
+1st create react app using vite.
+    npm create vite@latest
+
+2nd we have install the dependency.
+    1st- npm install
+
+3rd we install some other packages.
+    npm install axios react-router-dom react-toastify
+
+4th run ower project
+    npm run dev
+
+
+5th we delete the APP.css file. and than clear App.jsx file and type rafce. and than clear index.css file. than edite index.html 
+
+6th add tailwindcss in react with this command.
+    npm install tailwindcss @tailwindcss/vite
+
+7th create pages folder and create pages of ower website.
+
+8th create new folder called components 
