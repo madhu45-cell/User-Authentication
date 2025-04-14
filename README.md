@@ -1,6 +1,6 @@
-User-Authentication
+# User Authentication System 🔐
 
-> A brief description of what your project does and its purpose.
+> A secure user authentication system built with the MERN stack (MongoDB, Express, React, Node.js) featuring email OTP verification, JWT authentication, and password reset.
 
 ![Logo](path-to-logo.png)
 
@@ -16,51 +16,68 @@ User-Authentication
 - [License](#license)
 - [Contact](#contact)
 
+---
+
 ## About
 
 ### Overview
 
-[Your Project Name] is a **[type of application]** that helps users **[primary goal or function of your app]**. It provides **[brief description of the core functionality]**. Whether you're a [target audience or user type], this app offers **[main benefits]**.
+**User Authentication System** is a full-stack authentication project that allows users to register, verify their email via OTP, log in securely using JWT tokens, and reset their password via OTP. It's designed for modern web applications requiring reliable user identity verification and security.
 
-This project is built with **[technologies used]** and is aimed at **[what problem it solves or goal it achieves]**.
+This project uses:
+- **React** on the frontend
+- **Node.js + Express** on the backend
+- **MongoDB** for the database
+- **Brevo (SMTP)** for email delivery
+- **JWT & Cookies** for session management
 
 ### Motivation
 
-I built this project because **[why you decided to build the project]**. It is designed to **[why it is useful and how it stands out]**.
+I built this project to learn and implement a complete authentication system with real-world features like email verification, session management, and OTP handling. It's reusable in any full-stack web application requiring authentication and secure access control.
+
+---
 
 ## Features
 
-- **Authentication**: Secure user registration, login, and JWT-based authentication.
-- **Email Verification**: Send OTP to email for verification upon registration.
-- **Password Reset**: Forgot password functionality with OTP sent to the user's email.
-- **User Dashboard**: Users can view and edit their profile details.
-- **Responsive Design**: Works on desktop and mobile platforms seamlessly.
-- **REST API**: Easily integrates with frontend or other applications.
+- 🔐 **User Registration & Login**
+- 📩 **Email Verification via OTP**
+- 🔁 **Password Reset with OTP**
+- 🍪 **JWT & HTTP-Only Cookies**
+- 🛡️ **Protected Routes**
+- 💾 **MongoDB with Mongoose**
+- 📬 **SMTP Email via Brevo (Sendinblue)**
+- 📱 **Responsive UI**
+
+---
 
 ## Tech Stack
 
-- **Frontend**: 
-  - React.js
-  - Redux (optional)
-  - CSS/SCSS
-- **Backend**: 
-  - Node.js
-  - Express.js
-  - MongoDB (or SQL-based DB)
-  - JWT for authentication
-  - bcrypt.js for password hashing
-- **Email Service**:
-  - Nodemailer or Brevo (formerly Sendinblue) for email verification
-- **Other Tools**:
-  - dotenv for environment variables
-  - Joi for validation (optional)
-  - CORS for cross-origin requests
+### Frontend
+
+- React.js
+- React Router
+- Tailwind CSS / SCSS
+- Axios
+- React Toastify
+
+### Backend
+
+- Node.js
+- Express.js
+- MongoDB with Mongoose
+- JWT (jsonwebtoken)
+- bcrypt.js
+- Nodemailer (SMTP using Brevo)
+- dotenv for environment variables
+- cors for handling cross-origin requests
+
+---
 
 ## Installation
 
-Follow these steps to set up the project locally:
-
-### 1. Clone the repository
+### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-project-name.git
+git clone https://github.com/madhu45-cell/User-Authentication.git
+cd User-Authentication
+
