@@ -2,7 +2,7 @@
 
 > A secure user authentication system built with the MERN stack (MongoDB, Express, React, Node.js) featuring email OTP verification, JWT authentication, and password reset.
 
-![Logo](path-to-logo.png)
+![Logo](./assets/logo.png)
 
 ## Table of Contents
 
